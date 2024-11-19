@@ -1,0 +1,62 @@
+name: pemrograman_mobile_43a87006200203
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1 #Slider animation
+  flutter_native_splash: 2.3.7 #Loading Screen
+  get: ^4.6.5
+  google_fonts: ^5.1.0 #styling font dari Googlefonts
+  http: 1.1.0
+  intl: ^0.17.0 #Untuk ubah format tangggal menjadi d-m-Y
+
+flutter_native_splash:
+  color: "#23272E"
+  image: "assets/images/flutter.png"
+  android: true
+  ios: true
+  web: true
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/background.jpg
+    - assets/images/profile.jpg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.6
+
+  build_web_compilers: ^4.0.6
+
+  flutter_lints: ^2.0.0
